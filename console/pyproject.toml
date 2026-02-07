@@ -1,0 +1,9 @@
+[project]
+name = "todo-console"
+version = "0.1.0"
+description = "Phase I - Console Todo App"
+requires-python = ">=3.11"
+dependencies = ["rich>=13.0"]
+
+[project.scripts]
+todo = "todo_console.main:main"

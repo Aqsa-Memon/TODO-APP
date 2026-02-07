@@ -1,0 +1,10 @@
+project: todo-app
+version: "1.0"
+phases:
+  - id: phase-1
+    name: Console App
+    path: console/
+  - id: phase-2
+    name: Full-Stack Web App
+    frontend: frontend/
+    backend: backend/
